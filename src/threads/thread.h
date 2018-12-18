@@ -100,6 +100,7 @@ struct thread
 
     /* Owned by thread.c. */
     unsigned magic;                     /* Detects stack overflow. */
+    struct list waiting_child;          /* List of threads childs to parent or waiting for current thread*/
   };
 
 /* If false (default), use round-robin scheduler.
