@@ -1,0 +1,14 @@
+.idea/
+AUTHORS
+CMakeLists.txt
+LICENSE
+Makefile
+cmake-build-debug/
+doc/
+specs/
+tests/
+/src/utils/pintos-gdb
+/src/utils/pintos
+/src/utils/Pintos.pm
+/src/threads/Make.vars
+/src/utils/Makefile
